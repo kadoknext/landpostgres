@@ -6,10 +6,12 @@ export default function Home() {
   return (
     <main className="">
       <section id="intro" className="space-y-6 py-8 md:py-12 lg:py-32">
+      
         <div className="container mx-auto flex flex-col max-w-[64rem] items-center text-center gap-4">
+        <iframe src="https://www.youtube.com/embed/KxQUKrQBGYo" allowFullScreen />
           <span className="rounded-2xl bg-muted px-4 py-1.5 text-sm font-medium flex items-center">
             Full-stack Next.js 14 🚀
-            <ModeToggle /> 
+            <ModeToggle />
           </span>
           <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold">
             The Next Dev <br />
@@ -19,6 +21,13 @@ export default function Home() {
             Invista na sua carreira e aprenda a desenvolver aplicações que as
             grandes empresas estão utilizando. Faça parte da próxima turma da
             formação mais completa de Next.js 14.
+            <a
+              href="https://www.youtube.com/watch?v=hJTPDo8JlMc"
+              target="_blank"
+              className={cn(buttonVariants({ variant: "outline", size: "lg" }))}
+            >
+              Video: 38:00 min
+            </a>
           </p>
           <div className="space-x-4">
             <a
